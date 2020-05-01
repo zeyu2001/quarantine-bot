@@ -7,3 +7,6 @@ WhatsApp bot powered by Twilio API to get through the quarantine. Latest COVID19
 3. Under Sandbox Configuration, set the webhook for 'WHEN A MESSAGE COMES IN' to e.g. http://zeyu2001.pythonanywhere.com/bot/
 depending on where you host the webhook. Remember the relative url bot/. Set the request method to HTTP POST.
 4. Click save, and send 'hello' to the Twilio bot!
+
+## What You Can Do
+![Screenshot](https://github.com/zeyu2001/quarantine-bot/blob/master/screenshot.png)
