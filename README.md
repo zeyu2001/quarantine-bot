@@ -1,5 +1,5 @@
 # Quarantine Bot
-WhatsApp bot powered by Twilio API to get through the quarantine. Latest COVID19 statistics, inspirational quotes and cat photos.
+WhatsApp bot powered by Twilio API to get through the quarantine. Latest COVID19 statistics, world news, inspirational quotes and cat photos.
 
 ## How to Deploy
 1. Clone this repository and deploy it on any Django-friendly hosting service like [PythonAnywhere](https://pythonanywhere.com).
