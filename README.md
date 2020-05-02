@@ -9,4 +9,10 @@ depending on where you host the webhook. Remember the relative url bot/. Set the
 4. Click save, and send 'hello' to the Twilio bot!
 
 ## What You Can Do
-<img src="https://github.com/zeyu2001/quarantine-bot/blob/master/screenshot.png" width="400"/>
+Simply type 'Hello' for a list of commands you can use.
+
+<img src="Screenshot_20200502-152953.png" width="400"/>
+<img src="Screenshot_20200502-153022.png" width="400"/>
+<img src="Screenshot_20200502-153034.png" width="400"/>
+<img src="Screenshot_20200502-153135.png" width="400"/>
+<img src="Screenshot_20200502-153308.png" width="400"/>
