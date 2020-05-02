@@ -86,7 +86,8 @@ You can give me the following commands:
                 result = 'Sorry, I cannot search Allrecipes.com at this time.'
 
             if not result:
-                result = "I am searching Allrecipes.com for the best _{}_ recipes.".format(search_text)
+                result = emoji.emojize("I am searching Allrecipes.com for the best {} recipes. :fork_and_knife:".format(search_text),
+                                        use_aliases = True)
                 result += "\nPlease wait for a few moments before typing 'get recipe' to get your recipes!"
             msg.body(result)
             responded = True
@@ -203,7 +204,7 @@ _Published at {:02}/{:02}/{:02} {:02}:{:02}:{:02} UTC_
                         last_updated = datetime.datetime.strptime(data_dict.get('lastUpdatedApify', None), "%Y-%m-%dT%H:%M:%S.%fZ")
 
                         result += """
-Statistics for country {}:
+*Statistics for country {}*
 Infected: {}
 Tested: {}
 Recovered: {}
